@@ -1,0 +1,39 @@
+#		Hash 			Used for commenting, does not execute
+print	print			Prints and object that has a print method
++		plus			plus:  arithmetic additon and text concatenation
+-		minus			minus:  arithmetic subtraction
+/		fwd slash		arithmetic division
+\		back slash		escape character (also used in \r \n, etc.
+%		pct sign		uses in text replacement (e.g. %r, %s, %d); modulo
+<		less than		logical test  for less than
+>		greater than	logical test for greater than
+<=		less than		logical test for less than or equal to
+>=		gt equal		logical test for greater than or equal to	
+=		equal			assignment operator and logical test
+"		double quote	Define a text string
+'		single quote	Define a text string
+,		comma			used to link together elememnts in  print statement
+%d		format string	Numeric format string. "Merge variable"
+%s		format sring	String format string. Merge varaible
+%r		format string	Test format string
+\n  	new line		moves to new line
+\t      tab				creates a tab
+\r 		carriage return	Moves back to beginning of line
+
+
+
+
+raw_input("prompt")			prompts user for input from inside session
+argv (from sys package)		takes input from command line.
+open(filename, 'r')			opens a for reading, writing , etc.
+file.read()					reads entire file
+pydoc						command line help.  "pydoc file"
+file.truncate()				truncate the file
+file.write("text")			writes line into file
+file.close()				close a file
+def:						defines a function (indent beneath)
+return						returns value from function
+*args						like argv but for inside a function
+file.seek(0)				sets "head" to first line in file
+file.readline()				reads line.  increments "head" by one.
+
